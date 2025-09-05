@@ -29,4 +29,4 @@ This project demonstrates a comprehensive data pipeline that scrapes Pinterest f
 * Automated scraping pipeline with dual methodology.
 * Generated structured CSV datasets with image properties and confidence scores.
 * Identified strong user behavior patterns (shares ↔ repins correlation: 95%).
-* Multi-dataset integration with cloud storage
+* Multi-dataset integration with cloud storage.
