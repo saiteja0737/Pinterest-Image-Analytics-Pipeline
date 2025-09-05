@@ -6,7 +6,7 @@ This project demonstrates a comprehensive data pipeline that scrapes Pinterest f
 
 ## Key Features
 
-- **Web Scraping**: Collected 73 Pinterest food images using dual approaches:
+- **Web Scraping**: Collected 75 Pinterest food images using dual approaches:
   - Python Selenium automation  
   - Apify platform (no-code scraping)  
 - **Engagement Metrics**: Extracted user interactions (shares, comments, repins).  
