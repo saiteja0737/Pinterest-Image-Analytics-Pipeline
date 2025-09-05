@@ -6,11 +6,16 @@ This project demonstrates a comprehensive data pipeline that scrapes Pinterest f
 
 ## Key Features
 
-* Dual Data Collection: Python Selenium automation + Apify no-code platform
-* Computer Vision Analysis: AWS Rekognition for object detection and image quality assessment
-* Engagement Analytics: Statistical analysis of user interaction patterns
-* Cloud Integration: AWS SageMaker notebooks with Firebase database storage
-* Data Visualization: Correlation analysis and behavioral pattern identification
+- **Web Scraping**: Collected 73 Pinterest food images using dual approaches:
+  - Python Selenium automation  
+  - Apify platform (no-code scraping)  
+- **Engagement Metrics**: Extracted user interactions (shares, comments, repins).  
+- **Image Analysis**: Applied AWS Rekognition in SageMaker for:
+  - Object detection  
+  - Confidence scoring of detected labels  
+  - Image quality assessment including brightness and sharpness  
+- **Cloud Integration**: Stored processed results in Firebase cloud database.  
+- **Statistical Insights**: Conducted engagement analysis, identifying a **95% correlation between shares and repins** through statistical analysis and data visualization.  
 
 ## Technical Stack
 * Programming: Python (Pandas, Selenium, BeautifulSoup, Requests)
@@ -21,8 +26,7 @@ This project demonstrates a comprehensive data pipeline that scrapes Pinterest f
 
 ## Project Results
 
-* 75 Pinterest food images collected and analyzed
-* 95% correlation between shares and repins identified
-* Object detection with confidence scoring implemented
-* Image quality metrics (brightness/sharpness) assessed
+* Automated scraping pipeline with dual methodology.
+* Generated structured CSV datasets with image properties and confidence scores.
+* Identified strong user behavior patterns (shares ↔ repins correlation: 95%).
 * Multi-dataset integration with cloud storage
