@@ -15,7 +15,7 @@ This project demonstrates a comprehensive data pipeline that scrapes Pinterest f
   - Confidence scoring of detected labels  
   - Image quality assessment including brightness and sharpness  
 - **Cloud Integration**: Stored processed results in Firebase cloud database.  
-- **Statistical Insights**: Conducted engagement analysis, identifying a **95% correlation between shares and repins** through statistical analysis and data visualization.  
+- **Statistical Insights**: Conducted engagement analysis through statistical analysis and data visualization.  
 
 ## Technical Stack
 * Programming: Python (Pandas, Selenium, BeautifulSoup, Requests)
